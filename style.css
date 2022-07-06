@@ -26,7 +26,21 @@ button {
   font-size: 20px;
   color: white;
   background-color: #e85d04;
-  border: #e85d04 2px;
+  border: solid #e85d04 2px;
   padding: 20px 30px;
   border-radius: 25px;
+  transition: 0.5s;
+}
+
+button:hover {
+  background: white;
+  color: #e85d04;
+  border: solid 2px #e85d04;
+}
+
+img {
+  height: 700px;
+  width: 500px;
+  object-fit: cover;
+  border-radius: 80px;
 }
