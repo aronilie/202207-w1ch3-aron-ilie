@@ -2,6 +2,31 @@ html {
   font-family: Nunito, Arial, Helvetica, sans-serif;
 }
 
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#main-text {
+  font-size: 60px;
+}
+
 #title {
-  color: orange;
+  color: #e85d04;
+  font-size: 20px;
+}
+
+#images {
+  display: flex;
+}
+
+button {
+  font-family: Nunito, Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  color: white;
+  background-color: #e85d04;
+  border: #e85d04 2px;
+  padding: 20px 30px;
+  border-radius: 25px;
 }
